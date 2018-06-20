@@ -50,7 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Car.cs" />
+    <Compile Include="ParserComponents\CompositeIterator.cs" />
+    <Compile Include="ParserComponents\LikeExpression.cs" />
     <Compile Include="ParserComponents\PredicateBuilder.cs" />
+    <Compile Include="ParserComponents\PredicateParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
